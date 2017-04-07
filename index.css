@@ -1,3 +1,39 @@
+html{
+background-color: #000000;
+}
 h1{
-text-align: center;
+color: #e400ff;
+text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
+font-family:Contrail One;
+text-align:center;
+}
+h2:hover{
+transform: translateX(47%);
+transition: transform ease-in-out 1000ms;
+}
+@keyframes shift{
+25%{
+color:#e48eff;
+}
+50% {
+color:#e400ff;
+}
+75%{
+color:#e48eff;
+}
+100% {
+color:#e400ff;
+}}
+a{
+text-decoration:none;
+}
+h2{
+color:#e400ff;
+text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
+    -webkit-animation-name: shift;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: shift;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
