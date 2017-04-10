@@ -6,7 +6,7 @@ color: #e400ff;
 text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
 font-family:Contrail One;
 text-align:center;
-font-weight:2em;
+font-size:2em;
 }
 h2:hover{
 transform: translateX(47%);
