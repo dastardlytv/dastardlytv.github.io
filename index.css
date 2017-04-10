@@ -1,5 +1,6 @@
 html{
 background-color: #000000;
+max-width:100%;
 }
 h1{
 color: #e400ff;
@@ -7,7 +8,6 @@ text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
 font-family:Contrail One;
 text-align:center;
 font-size:2em;
-position: fixed;
 }
 h2:hover{
 transform: translateX(47%);
@@ -38,5 +38,4 @@ text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
 animation-name: shift;
 animation-duration: 7s;
 animation-iteration-count: infinite;
-position: fixed;
 }
