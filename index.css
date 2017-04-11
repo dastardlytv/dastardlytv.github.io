@@ -8,16 +8,6 @@ font-family:Contrail One;
 text-align:center;
 font-size:2em;
 }
-h2:hover{
--webkit-animation-fill-mode: forwards;
--webkit-animation-name: slide;
--webkit-animation-duration: 5s;
--webkit-animation-iteration-count:1;
-animation-name: slide;
-animation-duration: 3s;
-animation-iteration-count:1;
-animation-fill-mode: forwards;
-}
 
 a{
 text-decoration:none;
@@ -34,7 +24,7 @@ animation-duration: 7s;
 animation-iteration-count: infinite;
 }
 
-.sleepy{-webkit-animation-fill-mode: forwards;
+.sleepy:hover{-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slideSleepy;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
@@ -43,7 +33,7 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
-.orokana{-webkit-animation-fill-mode: forwards;
+.orokana:hover{-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slideOrokana;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
@@ -52,7 +42,7 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
-.roomsaver{-webkit-animation-fill-mode: forwards;
+.roomsaver:hover{-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slideRoomsaver;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
@@ -61,7 +51,7 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
-.wan{-webkit-animation-fill-mode: forwards;
+.wan:hover{-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slideWan;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
@@ -70,7 +60,7 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
-.mao{-webkit-animation-fill-mode: forwards;
+.mao:hover{-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slideMao;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
@@ -112,6 +102,57 @@ padding-right:-47%
   }
 }
 @keyframes slideSleepy{
+25%{
+color:#e48eff;
+  }
+50%{
+color:#e400ff;
+  }
+75%{
+color:#e48eff;
+  }
+100%{
+color:#e400ff;
+padding-left:50%;
+padding-right:-50%
+  }
+}
+
+@keyframes slideRoomsaver{
+25%{
+color:#e48eff;
+  }
+50%{
+color:#e400ff;
+  }
+75%{
+color:#e48eff;
+  }
+100%{
+color:#e400ff;
+padding-left:50%;
+padding-right:-50%
+  }
+}
+
+@keyframes slideWan{
+25%{
+color:#e48eff;
+  }
+50%{
+color:#e400ff;
+  }
+75%{
+color:#e48eff;
+  }
+100%{
+color:#e400ff;
+padding-left:50%;
+padding-right:-50%
+  }
+}
+
+@keyframes slideMao{
 25%{
 color:#e48eff;
   }
