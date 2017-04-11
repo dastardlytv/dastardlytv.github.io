@@ -33,7 +33,21 @@ animation-name: shift;
 animation-duration: 7s;
 animation-iteration-count: infinite;
 }
-@keyframes slide{
+@keyframes shiftOrokana{
+25%{
+color:#e48eff;
+  }
+50%{
+color:#e400ff;
+  }
+75%{
+color:#e48eff;
+  }
+100%{
+color:#e400ff;
+  }
+}
+@keyframes slideOrokana{
 25%{
 color:#e48eff;
   }
@@ -49,7 +63,7 @@ padding-left:47%;
 padding-right:-47%
   }
 }
-@keyframes shift{
+@keyframes slideSleepy{
 25%{
 color:#e48eff;
   }
@@ -61,5 +75,7 @@ color:#e48eff;
   }
 100%{
 color:#e400ff;
+padding-left:50%;
+padding-right:-50%
   }
 }
