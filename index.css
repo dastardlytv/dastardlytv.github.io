@@ -32,7 +32,8 @@ animation-iteration-count: infinite;
 }
 @keyframes slide{
 100%{
-text-align:center;
+display:flex;
+align-self:center;
   }
 }
 @keyframes shift{
