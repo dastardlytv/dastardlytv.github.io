@@ -14,7 +14,7 @@ h2:hover{
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
 animation-name: slide;
-animation-duration: 5s;
+animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;
 }
