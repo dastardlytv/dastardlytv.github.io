@@ -17,6 +17,13 @@ animation-name: slide;
 animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;
+
+-webkit-animation-name: shift;
+-webkit-animation-duration: 7s;
+-webkit-animation-iteration-count: infinite;
+animation-name: shift;
+animation-duration: 7s;
+animation-iteration-count: infinite;
 }
 
 a{
