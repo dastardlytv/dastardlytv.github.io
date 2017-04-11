@@ -33,7 +33,55 @@ animation-name: shift;
 animation-duration: 7s;
 animation-iteration-count: infinite;
 }
-@keyframes shiftOrokana{
+
+.sleepy{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideSleepy;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideSleepy;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
+
+.orokana{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideOrokana;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideOrokana;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
+
+.roomsaver{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideRoomsaver;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideRoomsaver;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
+
+.wan{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideWan;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideWan;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
+
+.mao{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideMao;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideMao;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
+
+
+
+@keyframes shift{
 25%{
 color:#e48eff;
   }
