@@ -9,12 +9,14 @@ text-align:center;
 font-size:2em;
 }
 h2:hover{
+-webkit-animation-fill-mode: forwards;
 -webkit-animation-name: slide;
 -webkit-animation-duration: 5s;
 -webkit-animation-iteration-count:1;
 animation-name: slide;
 animation-duration: 5s;
 animation-iteration-count:1;
+animation-fill-mode: forwards;
 }
 
 a{
@@ -32,20 +34,21 @@ animation-iteration-count: infinite;
 }
 @keyframes slide{
 100%{
-display:flex;
-align-self:center;
+padding-left:47%;
+padding-right:-47%
   }
 }
 @keyframes shift{
 25%{
 color:#e48eff;
-}
-50% {
+  }
+50%{
 color:#e400ff;
-}
+  }
 75%{
 color:#e48eff;
-}
-100% {
+  }
+100%{
 color:#e400ff;
-}}
+  }
+}
