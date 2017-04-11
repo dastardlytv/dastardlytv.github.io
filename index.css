@@ -101,6 +101,7 @@ padding-left:47%;
 padding-right:-47%
   }
 }
+
 @keyframes slideSleepy{
 25%{
 color:#e48eff;
@@ -113,8 +114,8 @@ color:#e48eff;
   }
 100%{
 color:#e400ff;
-padding-left:50%;
-padding-right:-50%
+padding-left:43%;
+padding-right:-43%
   }
 }
 
@@ -130,8 +131,8 @@ color:#e48eff;
   }
 100%{
 color:#e400ff;
-padding-left:50%;
-padding-right:-50%
+padding-left:46%;
+padding-right:-46%
   }
 }
 
@@ -147,8 +148,8 @@ color:#e48eff;
   }
 100%{
 color:#e400ff;
-padding-left:50%;
-padding-right:-50%
+padding-left:47%;
+padding-right:-47%
   }
 }
 
@@ -164,7 +165,7 @@ color:#e48eff;
   }
 100%{
 color:#e400ff;
-padding-left:50%;
-padding-right:-50%
+padding-left:47%;
+padding-right:-47%
   }
 }
