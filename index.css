@@ -23,6 +23,7 @@ a{
 text-decoration:none;
 }
 h2{
+font-family:Contrail One;
 color:#e400ff;
 text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
 -webkit-animation-name: shift;
