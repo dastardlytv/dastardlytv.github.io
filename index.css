@@ -33,7 +33,17 @@ animation-duration: 7s;
 animation-iteration-count: infinite;
 }
 @keyframes slide{
+25%{
+color:#e48eff;
+  }
+50%{
+color:#e400ff;
+  }
+75%{
+color:#e48eff;
+  }
 100%{
+color:#e400ff;
 padding-left:47%;
 padding-right:-47%
   }
