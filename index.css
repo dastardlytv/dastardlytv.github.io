@@ -7,6 +7,12 @@ text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
 font-family:Contrail One;
 text-align:center;
 font-size:2.2em;
+-webkit-animation-name: shift;
+-webkit-animation-duration: 7s;
+-webkit-animation-iteration-count: infinite;
+animation-name: shift;
+animation-duration: 7s;
+animation-iteration-count: infinite;
 }
 
 a{
