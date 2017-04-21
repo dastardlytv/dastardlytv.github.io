@@ -17,8 +17,18 @@ animation-iteration-count: infinite;
 
 #bio{
 top:25%;
-margin-left: 15%;
-margin-right:-15%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Contrail One;
+color:#e400ff;
+text-shadow: -2px -2px 9px #FF00FF,2px 2px 9px #FF00FF;
+-webkit-animation-name: shift;
+-webkit-animation-duration: 7s;
+-webkit-animation-iteration-count: infinite;
+animation-name: shift;
+animation-duration: 7s;
+animation-iteration-count: infinite;
 
 }
 
