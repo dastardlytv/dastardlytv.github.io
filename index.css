@@ -92,6 +92,14 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
+.misaki:hover{-webkit-animation-fill-mode: forwards;
+-webkit-animation-name: slideMisaki;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count:1;
+animation-name: slideMisaki;
+animation-duration: 3s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;}
 
 
 @keyframes shift{
