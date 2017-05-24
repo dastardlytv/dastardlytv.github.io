@@ -92,15 +92,6 @@ animation-duration: 3s;
 animation-iteration-count:1;
 animation-fill-mode: forwards;}
 
-.misaki:hover{-webkit-animation-fill-mode: forwards;
--webkit-animation-name: slideMisaki;
--webkit-animation-duration: 5s;
--webkit-animation-iteration-count:1;
-animation-name: slideMisaki;
-animation-duration: 3s;
-animation-iteration-count:1;
-animation-fill-mode: forwards;}
-
 
 @keyframes shift{
 25%{
@@ -200,18 +191,3 @@ padding-left:48%;
 padding-right:-48%
   }
 }
-@keyframes slideMisaki{
-25%{
-color:#e48eff;
-  }
-50%{
-color:#e400ff;
-  }
-75%{
-color:#e48eff;
-  }
-100%{
-color:#e400ff;
-padding-left:48%;
-padding-right:-48%
-  }
